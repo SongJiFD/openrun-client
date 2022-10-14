@@ -34,7 +34,7 @@ export default function LiveChat() {
     variables: { boardId: router.query.id },
   });
 
-  const socket = io("https://openrunbackend.shop/chat");
+  const socket = io("http://dev-one.duckdns.org:4000/chat");
 
   const { register, handleSubmit, resetField } = useForm({
     mode: "onChange",

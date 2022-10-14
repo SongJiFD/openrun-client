@@ -11,7 +11,7 @@ export async function getUserInfo(accessToken: string) {
   if (!accessToken) return;
   try {
     const graphQlClient = new GraphQLClient(
-      "https://openrunbackend.shop/graphql",
+      "http://dev-one.duckdns.org:4000/graphql",
       {
         credentials: "include",
         headers: { Authorization: `Bearer ${accessToken}` },

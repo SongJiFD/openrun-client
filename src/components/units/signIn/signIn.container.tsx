@@ -64,15 +64,15 @@ export default function SignIn() {
   };
 
   const onClickNaver = () => {
-    router.push("https://openrunbackend.shop/login/naver");
+    router.push("http://dev-one.duckdns.org:4000/login/naver");
   };
 
   const onClickGoolge = () => {
-    router.push("https://openrunbackend.shop/login/google");
+    router.push("http://dev-one.duckdns.org:4000/login/google");
   };
 
   const onClickKakao = () => {
-    router.push("https://openrunbackend.shop/login/kakao");
+    router.push("http://dev-one.duckdns.org:4000/login/kakao");
   };
 
   return (

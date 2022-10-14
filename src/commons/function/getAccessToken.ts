@@ -16,7 +16,7 @@ const RESTORE_ACCESS_TOKEN = gql`
 export async function getAccessToken() {
   try {
     const graphQlClient = new GraphQLClient(
-      "https://openrunbackend.shop/graphql",
+      "http://dev-one.duckdns.org:4000/graphql",
       { credentials: "include" }
     );
     const result = await graphQlClient.request(RESTORE_ACCESS_TOKEN);

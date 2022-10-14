@@ -64,7 +64,7 @@ export default function ApolloSetting(props: IApolloSettingProps) {
     }
   });
   const uploadLink = createUploadLink({
-    uri: "https://openrunbackend.shop/graphql",
+    uri: "http://dev-one.duckdns.org:4000/graphql",
     headers: { Authorization: `Bearer ${accessToken}` },
     credentials: "include",
   });

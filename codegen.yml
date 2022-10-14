@@ -1,4 +1,4 @@
-schema: https://openrunbackend.shop/graphql
+schema: http://dev-one.duckdns.org:4000/graphql
 generates:
   ./src/commons/types/generated/types.ts:
     plugins:
