@@ -4,5 +4,4 @@ COPY . /
 WORKDIR /
 
 RUN yarn install --network-timeout 100000
-RUN yarn build:ssr
-CMD yarn start
+CMD yarn dev
