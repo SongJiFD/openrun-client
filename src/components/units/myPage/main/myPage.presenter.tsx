@@ -33,7 +33,7 @@ export default function MyPageUI(props: IMainProps) {
                       <s.NoImg />
                     ) : (
                       <s.ActiveImg
-                        src={`https://storage.googleapis.com/openrun-bucket/${el.image}`}
+                        src={`https://storage.googleapis.com/openrun-sub/${el.image}`}
                       />
                     )}
 
@@ -82,7 +82,7 @@ export default function MyPageUI(props: IMainProps) {
                       <s.NoImg />
                     ) : (
                       <s.ActiveImg
-                        src={`https://storage.googleapis.com/openrun-bucket/${el.board?.image}`}
+                        src={`https://storage.googleapis.com/openrun-sub/${el.board?.image}`}
                       />
                     )}
                     <s.ActiveTextWrapper>
@@ -132,7 +132,7 @@ export default function MyPageUI(props: IMainProps) {
                   <s.ChatProfileImg
                     src={
                       el?.seller?.profileImg
-                        ? `https://storage.googleapis.com/openrun-bucket/${el.seller.profileImg}`
+                        ? `https://storage.googleapis.com/openrun-sub/${el.seller.profileImg}`
                         : "/img/profile.png"
                     }
                   />
@@ -148,7 +148,7 @@ export default function MyPageUI(props: IMainProps) {
                   <s.ChatProfileImg
                     src={
                       el?.runner?.profileImg
-                        ? `https://storage.googleapis.com/openrun-bucket/${el.runner.profileImg}`
+                        ? `https://storage.googleapis.com/openrun-sub/${el.runner.profileImg}`
                         : "/img/profile.png"
                     }
                   />

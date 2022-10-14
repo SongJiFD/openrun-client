@@ -47,27 +47,27 @@ export default function MainSlider(props: ICarouselProps) {
   return (
     <CustomSlider {...settings}>
       <s.AdCarousel
-        src={`https://storage.googleapis.com/openrun-storage/${props.Src[0]}`}
+        src={`https://storage.googleapis.com/openrun-sub/${props.Src[0]}`}
         color="#5358D6"
         onClick={() => onClickGoToList("/board/fashion/")}
       />
       <s.AdCarousel
-        src={`https://storage.googleapis.com/openrun-storage/${props.Src[1]}`}
+        src={`https://storage.googleapis.com/openrun-sub/${props.Src[1]}`}
         color="#fff"
         onClick={() => onClickGoToList("/board/toy/")}
       />
       <s.AdCarousel
-        src={`https://storage.googleapis.com/openrun-storage/${props.Src[2]}`}
+        src={`https://storage.googleapis.com/openrun-sub/${props.Src[2]}`}
         color="#111"
         onClick={() => onClickGoToList("/board/digital/")}
       />
       <s.AdCarousel
-        src={`https://storage.googleapis.com/openrun-storage/${props.Src[3]}`}
+        src={`https://storage.googleapis.com/openrun-sub/${props.Src[3]}`}
         color="#fff"
         onClick={() => onClickGoToList("/board/acc/")}
       />
       <s.AdCarousel
-        src={`https://storage.googleapis.com/openrun-storage/${props.Src[4]}`}
+        src={`https://storage.googleapis.com/openrun-sub/${props.Src[4]}`}
         color="#fff"
         onClick={() => onClickGoToList("/board/food/")}
       />

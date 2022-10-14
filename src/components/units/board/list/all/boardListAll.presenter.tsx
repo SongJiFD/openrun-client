@@ -152,7 +152,7 @@ export default function BoardListAllUI(props: BoardListUIProps) {
                   key={el}
                   src={
                     el?.image
-                      ? `https://storage.googleapis.com/openrun-bucket/${el?.image}`
+                      ? `https://storage.googleapis.com/openrun-sub/${el?.image}`
                       : "/boardList/default.jpeg"
                   }
                 />
